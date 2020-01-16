@@ -46,11 +46,19 @@
     .box {
       background-color: white;
     }
+    
+    .topRow, .bottomRow{
+      justify-content: space-between;
+    }
   }
 
   @media(min-width: 901px){
     .box {
       background-color: white;
+    }
+
+    .topRow, .bottomRow{
+      justify-content: space-between;
     }
 
     .container{
